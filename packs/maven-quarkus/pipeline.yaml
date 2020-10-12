@@ -1,4 +1,5 @@
 extends:
   file: ../maven/pipeline.yaml
 agent:
-  image: padraoix/maven-graalvm:centos-20.1.0-java-11
+  label: jenkins-maven-graalvm
+  container: maven-graalvm
